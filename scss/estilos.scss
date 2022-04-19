@@ -1,0 +1,33 @@
+@import "variables";
+@import "estructura";
+
+
+
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-family: $fontFamily;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+  
+    100% {
+        opacity: 1;
+    }
+  }
+  
+  h1 {
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-delay: 1s;
+  }
