@@ -4,20 +4,40 @@
   }
 
 
+  .fondo {
+  background-image: url(/images/madera-fondo.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  }
+
+
 header {
     margin-top: 15px;
     background-color: black;
 }
 
-h3 {
-    width: 300px;
+.boton {
+    display: flex;
+    justify-content: flex-start;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    background-image: url(/images/madera-fondo.jpg);
-    height: 50px;
+.card {
+    background: #000;
+    border-radius: 4px;
+    padding: 16px;
+    box-shadow: 1px 1px 12px 0px rgba(0,0,0,0.3);
+  }
+  
+  .title {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 12px;
+    opacity: 0.85;
+  }
+
+
+h3 {
+    width: 300px;
 }
 
 a {
@@ -30,6 +50,6 @@ a {
 
 footer {
     padding-top: 50px;
-    background-image: url(/images/madera-fondo.jpg);
+    background-image: url(/images/madera-fondo-mobile.jpg);
 }
 

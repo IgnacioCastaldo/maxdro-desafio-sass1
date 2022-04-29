@@ -1,2 +1,11 @@
-$fuente: 70px;
+$fuente: 20px;
 $fontFamily: 'Square Peg', cursive;
+$lista: red, green, yellow, blue;
+$primario: nth($lista, 4);
+$headings: (
+    h1: 4em,
+    h2: 3em,
+    h3: 2em,
+);
+
+$h1: map-get($headings, h1);

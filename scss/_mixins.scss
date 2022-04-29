@@ -1,0 +1,15 @@
+@mixin color {
+ background-color: black;   
+}
+
+header {
+    @include color();
+}
+
+@mixin fuente( $fuente ) {
+    font-size: $fuente;
+}
+
+p {
+    @include fuente( 20px );
+}
